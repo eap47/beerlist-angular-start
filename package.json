@@ -1,17 +1,27 @@
 {
   "name": "reddit-fun",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "angular": "^1.6.2",
-    "bootstrap": "^3.3.7",
     "body-parser": "^1.17.2",
-    "express": "^4.15.3"
-  }
+    "bootstrap": "^3.3.7",
+    "express": "^4.15.3",
+    "mongoose": "^4.11.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eap47/beerlist-angular-start.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eap47/beerlist-angular-start/issues"
+  },
+  "homepage": "https://github.com/eap47/beerlist-angular-start#readme",
+  "description": ""
 }
